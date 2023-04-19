@@ -4,8 +4,10 @@ This repo contains a few example images for the Divoom Pixoo 64. If you can deco
 
 ## Included Files
 
-* `Red64` - a 64x64 image that contains a solid red background
-* `White64` - a 64x64 image that contains a solid white background
-* `rgby` - a 16x16 image that contains four pixels, red, green, blue and yellow, with the rest being black / empty
-* `checkerboard` - a 16x16 image. The top row is a red line, the bottom row is blue, the left column is green and the right column is yellow. The top left pixel is magenta, the top right pixel is purple, the bottom left pixel is turquoise, and the bottom right pixel is a deeper blue. The middle is a checkerboard pattern.
+* `blue16` - a 16x16 image that contains a solid blue background (0, 0, 255)
+* `green32` - a 32x32 image that contains a solid green background (0, 255, 0)
+* `red64` - a 64x64 image that contains a solid red background (255, 0, 0)
+* `checkerboard64` - a 64x64 image that contains a black and white (0, 0, 0 then 255, 255, 255) checkerboard pattern. Starts with black, then white, then repeats
+
+The original images are in the `images` folder
 
