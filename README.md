@@ -13,7 +13,7 @@ This repo contains a few example images for the Divoom Pixoo 64. If you can deco
 * `magenta128` - a 128x128 image that contains a solid magenta background (255, 0, 255)
 * `rainbow128` - a 128x128 image that contains a rainbow-esque pattern. Colours are (255, 0, 0), (255, 255, 0), (255, 255, 255), (0, 255, 255), (0, 0, 255), (0, 0, 0), (0, 255, 0), (255, 0, 255), then repeats until the end. 
 
-The original images are in the `images` folder
+The original images are in the `images` folder and can be generated using `python generate.py`. Make sure you have `PIL` installed
 
 ## More info about the images
 
