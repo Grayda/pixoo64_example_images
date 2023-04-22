@@ -12,6 +12,7 @@ This repo contains a few example images for the Divoom Pixoo 64. If you can deco
 * `white128` - a 128x128 image that contains a solid white background (255, 255, 255)
 * `magenta128` - a 128x128 image that contains a solid magenta background (255, 0, 255)
 * `rainbow128` - a 128x128 image that contains a rainbow-esque pattern. Colours are (255, 0, 0), (255, 255, 0), (255, 255, 255), (0, 255, 255), (0, 0, 255), (0, 0, 0), (0, 255, 0), (255, 0, 255), then repeats until the end. 
+* `RGBAnimation` - a 64x64 image that contains 3 frames of animation. First is a red colour, second is a green colour, third is a blue colour. These will NOT be (255, 0, 0), (0, 255, 0) and (0, 0, 255) because I just used the default colour pallete in the Divoom pixel editor. The animation speed is also set to the lowest.
 
 The original images are in the `images` folder and can be generated using `python generate.py`. Make sure you have `PIL` installed
 
